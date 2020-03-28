@@ -1,5 +1,5 @@
 #!/bin/sh
-git checkout -b
+git checkout 
 git add . 
 git config --global user.email "kimngtt@gmail.com"
 git commit -m "nv"
