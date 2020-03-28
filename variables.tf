@@ -9,6 +9,7 @@ variable "prefix" {
   description = "This prefix will be included in the name of most resources."
 }
 
+#testing testing#
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
@@ -48,3 +49,9 @@ variable "placeholder" {
   default     = "placekitten.com"
   description = "Image-as-a-service URL. Some other fun ones to try are fillmurray.com, placecage.com, placebeard.it, loremflickr.com, baconmockup.com, placeimg.com, placebear.com, placeskull.com, stevensegallery.com, placedog.net"
 }
+
+variable "placeholder" {
+  default     = "google.com"
+  description = "google.com"
+}
+
