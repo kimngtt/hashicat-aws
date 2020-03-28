@@ -52,6 +52,6 @@ variable "placeholder" {
 
 variable "placeholder" {
   default     = "google.com"
-  description = "google.com"
+  description = "google.com,yahoo.com"
 }
 
